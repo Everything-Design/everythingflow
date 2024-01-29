@@ -9,9 +9,9 @@ Welcome to the Everything Flow monorepo! This repository is your one-stop soluti
 
 First, clone this repository to your local machine to get started with the projects.
 
-\```bash
+```bash
 git clone https://github.com/Everything-Design/everythingflow.git
-\```
+```
 
 ### 2. Project Structure and Guidelines
 
@@ -37,8 +37,8 @@ Once you have your CDN link, you can add it to your Webflow site as follows:
 2. Paste the CDN link into the **Head Code** or **Footer Code** field, wrapped within a `<script>` tag.
    
    Example:
-   \```html
+   ```html
    <script src="YOUR_CDN_LINK_HERE"></script>
-   \```
+   ```
 3. Save your changes and publish your site.
 
