@@ -1,9 +1,5 @@
 # Everything Flow Monorepo
-
-![image](https://github.com/Everything-Design/everythingflow/assets/154067265/d5bf0b0c-4cd5-40f1-a359-3186ddf384d2)
-![image](https://github.com/Everything-Design/everythingflow/assets/154067265/b4880a66-e760-4a6b-a510-2864f43d51bb)
-
-
+![image](https://github.com/Everything-Design/everythingflow/assets/154067265/1c29e213-d355-46d0-a9a3-deb8732cabf7)
 
 Welcome to the Everything Flow monorepo! This repository is your one-stop solution for integrating Everything Flow projects with Webflow. Follow the instructions below to use the projects in your Webflow site.
 
