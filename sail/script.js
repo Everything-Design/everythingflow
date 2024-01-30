@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("testing");
+    console.log("Script loaded successfully!");
     renderCartItems();
     $(document).ready(function () {
       $(".product-card").on("click", function () {
@@ -84,13 +84,10 @@ document.addEventListener("DOMContentLoaded", function () {
       let storedItems = JSON.parse(localStorage.getItem("quotedItems")) || [];
       let isItemInCart = storedItems.some(item => item.id === itemId);
   
-      console.log("button", button)
-      console.log("button.style.backgroundColor", button.style.backgroundColor)
-  
       if (isItemInCart) {
           button.style.backgroundColor = '#e26d2a'; 
       } else {
-          button.style.backgroundColor = ''; 
+          button.style.backgroundColor = '#838dfe'; 
       }
     }
   
@@ -109,7 +106,6 @@ document.addEventListener("DOMContentLoaded", function () {
   
       storedItems.forEach(item => {
         updateButtonStyles(item.id);
-        console.log("item.id",item.id)
       });
   
       if (storedItems.length === 0) {
@@ -296,8 +292,10 @@ document.addEventListener("DOMContentLoaded", function () {
               localStorage.setItem("quotedItems", JSON.stringify(updatedItems));
               renderCartItems();
               updateButtonInnerText(itemId);
+              updateButtonStyles(itemId);
           }, 300); 
       }
+  
   }
   });
   
