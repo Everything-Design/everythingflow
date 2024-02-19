@@ -27,7 +27,12 @@ To use the script files in your Webflow projects, you'll need to serve them via 
 
 1. Navigate to [jsDelivr GitHub](https://www.jsdelivr.com/github).
 2. Enter the GitHub repository URL: `https://github.com/Everything-Design/everythingflow`.
-3. Find the script file you wish to use and copy the CDN link provided by jsDelivr.
+3. Copy the CDN Link Provided by jsDelivr: jsDelivr gives you a direct link to the script file. To always use the latest version of the file, modify the URL by replacing the branch name `main` with `latest`. This ensures your project automatically updates to use the newest version of the script without needing manual updates.
+
+**Example Conversion:**
+
+- Original URL: `https://cdn.jsdelivr.net/gh/Everything-Design/everythingflow@main/project-name/script.js`
+- Modified URL for Latest Version: `https://cdn.jsdelivr.net/gh/Everything-Design/everythingflow@latest/project-name/script.js`
 
 ### 4. Using the CDN in Your Webflow Site
 
