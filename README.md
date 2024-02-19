@@ -18,7 +18,7 @@ git clone https://github.com/Everything-Design/everythingflow.git
 When contributing to the repository or using its contents, please adhere to the following structure and guidelines:
 
 - **Project Folders:** Each project should have its own separate folder within the repository.
-- **Script Tags:** If your project includes JavaScript, place the script tags inside the project's folder.
+- **Scripts:** If your project includes JavaScript, place the scripts inside the project's folder with relevant file names.
 - **Naming Schemes:** Ensure you are using the correct naming schemes for folders and files. This helps in maintaining consistency and organization across the repository.
 
 ### 3. Creating a CDN Link
