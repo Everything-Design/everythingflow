@@ -18,7 +18,7 @@ git clone https://github.com/Everything-Design/everythingflow.git
 When contributing to the repository or using its contents, please adhere to the following structure and guidelines:
 
 - **Project Folders:** Each project should have its own separate folder within the repository.
-- **Script Tags:** If your project includes JavaScript, place the script tags inside the project's folder.
+- **Scripts:** If your project includes JavaScript, place the scripts inside the project's folder with relevant file names.
 - **Naming Schemes:** Ensure you are using the correct naming schemes for folders and files. This helps in maintaining consistency and organization across the repository.
 
 ### 3. Creating a CDN Link
@@ -27,7 +27,12 @@ To use the script files in your Webflow projects, you'll need to serve them via 
 
 1. Navigate to [jsDelivr GitHub](https://www.jsdelivr.com/github).
 2. Enter the GitHub repository URL: `https://github.com/Everything-Design/everythingflow`.
-3. Find the script file you wish to use and copy the CDN link provided by jsDelivr.
+3. Copy the CDN Link Provided by jsDelivr: jsDelivr gives you a direct link to the script file. To always use the latest version of the file, modify the URL by replacing the branch name `main` with `latest`. This ensures your project automatically updates to use the newest version of the script without needing manual updates.
+
+**Example Conversion:**
+
+- Original URL: `https://cdn.jsdelivr.net/gh/Everything-Design/everythingflow@main/project-name/script.js`
+- Modified URL for Latest Version: `https://cdn.jsdelivr.net/gh/Everything-Design/everythingflow@latest/project-name/script.js`
 
 ### 4. Using the CDN in Your Webflow Site
 
