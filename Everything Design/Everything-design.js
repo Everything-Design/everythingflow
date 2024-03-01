@@ -1,30 +1,34 @@
-// Create a new div element to contain the text and link
-const container = document.createElement('div');
+// Create a new paragraph element to serve as the container
+const container = document.createElement('p');
 
-// Add the class 'text-size-small' to the container
+// Assign the 'text-size-small' class to the container
 container.className = 'text-size-small';
 
-// Set the part of the text that is not a link
+// Create a text node for the part of the text that isn't a link
 const textNode = document.createTextNode('Designed by ');
+
+// Append the text node to the container
 container.appendChild(textNode);
 
-// Create the link (anchor) element for 'Everything Design'
+// Create the anchor element for 'Everything Design'
 const link = document.createElement('a');
-link.href = 'https://everything.design'; // Set the link destination
-link.textContent = 'Everything Design'; // Set the link text
+link.href = 'https://everything.design'; // Set the hyperlink destination
+link.textContent = 'Everything Design'; // Set the text for the link
 
-// Add hover effect for the link using JavaScript
-link.style.textDecoration = 'none'; // Ensure no underline by default
+// Style the link to not have an underline by default
+link.style.textDecoration = 'none';
+
+// Add event listeners for mouseover and mouseout to create the hover effect
 link.onmouseover = function() {
-    this.style.textDecoration = 'underline';
+    this.style.textDecoration = 'underline'; // Add underline on hover
 };
 link.onmouseout = function() {
-    this.style.textDecoration = 'none';
+    this.style.textDecoration = 'none'; // Remove underline when not hovered
 };
 
 // Append the link to the container
 container.appendChild(link);
 
-// Append the container to the body of the document
-// or to any specific element where you want this to appear
+// Finally, append the container to the body of the document
+// This inserts your dynamically created content into the page
 document.body.appendChild(container);
