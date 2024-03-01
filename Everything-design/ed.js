@@ -1,24 +1,20 @@
 // Create a new paragraph element to serve as the container
 const container = document.createElement('p');
 
-// Assign the 'text-size-small' class to the container
-container.className = 'text-size-small';
+// Style the container to take up full width and behave as an inline-block element
+container.style.display = 'inline-block';
+container.style.width = '100%'; // Makes the paragraph take the full width of its parent
 
-// Create a text node for the part of the text that isn't a link
-const textNode = document.createTextNode('Designed by ');
-
-// Append the text node to the container
-container.appendChild(textNode);
-
-// Create the anchor element for 'Everything Design'
+// Create the anchor element that will contain the entire text
 const link = document.createElement('a');
 link.href = 'https://everything.design'; // Set the hyperlink destination
-link.textContent = 'Everything Design'; // Set the text for the link
+link.innerHTML = 'Designed by <span>Everything Design</span>'; // Set the text, with optional span for styling
 
-// Style the link to not have an underline by default
-link.style.textDecoration = 'none';
+// Style the anchor to fill the entire space of the paragraph
+link.style.display = 'block'; // Makes the anchor fill the full width of the paragraph
+link.style.textDecoration = 'none'; // Removes the underline by default
 
-// Add event listeners for mouseover and mouseout to create the hover effect
+// Add hover effect for the link using JavaScript
 link.onmouseover = function() {
     this.style.textDecoration = 'underline'; // Add underline on hover
 };
@@ -26,9 +22,11 @@ link.onmouseout = function() {
     this.style.textDecoration = 'none'; // Remove underline when not hovered
 };
 
-// Append the link to the container
+// Append the link to the container paragraph
 container.appendChild(link);
 
+// Assign the 'text-size-small' class to the container
+container.className = 'text-size-small';
+
 // Finally, append the container to the body of the document
-// This inserts your dynamically created content into the page
 document.body.appendChild(container);
