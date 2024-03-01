@@ -47,3 +47,9 @@ Once you have your CDN link, you can add it to your Webflow site as follows:
    ```
 3. Save your changes and publish your site.
 
+##Update on Visual Studio
+code:
+1. git init
+2. git add .
+3. git commit -m "Initial commit"
+
