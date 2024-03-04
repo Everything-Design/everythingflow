@@ -1,7 +1,7 @@
 // ED Tag
 document.addEventListener("DOMContentLoaded", function () {
-  // Select the element with the class "ed_credit-component"
-  var creditComponent = document.querySelector(".ed_credit-component");
+  // Select the element with the id "ed-tag"
+  var edTag = document.getElementById("ed-tag");
 
   // Create a new div element
   var newDiv = document.createElement("div");
@@ -9,6 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
     <div>Website by <a href="https://www.everything.design/">Everything Design</a></div>
     `;
 
-  // Append the new div element to the page-wrapper
-  creditComponent.appendChild(newDiv);
+  // Append the new div element to the edTag
+  edTag.appendChild(newDiv);
 });
