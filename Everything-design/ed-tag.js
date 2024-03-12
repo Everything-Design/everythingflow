@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Create a new div element
   var newDiv = document.createElement("div");
   newDiv.innerHTML = `
-    <div>Website by <a href="https://www.everything.design/">Everything Design</a></div>
+    <div>Website by <a href="https://www.everything.design/" target="_blank">Everything Design</a></div>
     `;
 
   // Append the new div element to the edTag
