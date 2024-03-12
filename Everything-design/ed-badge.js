@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             </style>
         </div>
-        <a href="https://www.everything.design/" class="ed_badge w-inline-block">
+        <a href="https://www.everything.design/" target="_blank" class="ed_badge w-inline-block">
             <div class="text-size-tiny">Website by</div>
             <div class="ed_logo w-embed">
                 <svg xmlns="http://www.w3.org/2000/svg" width="5rem" height="1.5rem" id="Layer_2" viewBox="0 0 460.33832 133.70876">
