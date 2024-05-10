@@ -1,0 +1,114 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const heroBlocks = document.querySelectorAll(".brand-identity-block.hero");
+  const brandWrapper = document.querySelector(".brand-identity-wrapper");
+
+  let numCards = heroBlocks.length;
+  let divCards = 100 / numCards;
+
+  // console.log("Number of cards: " + numCards);
+
+  heroBlocks.forEach(function (heroBlock) {
+    const staticImg = heroBlock.querySelector(".brand-identity-img");
+    const verticalTextContainer = heroBlock.querySelector(".hero-collumn");
+    const bottomTextWrapper = heroBlock.querySelector(
+      ".hero-card_-bottom-text-wrapper"
+    );
+
+    let enterTimeline = gsap.timeline();
+    let leaveTimeline = gsap.timeline();
+
+    // heroBlock.style.width = divCards + "%";
+
+    heroBlock.addEventListener("mouseenter", function () {
+      enterTimeline.clear();
+
+      heroBlocks.forEach(function (block) {
+        if (block !== heroBlock) {
+          enterTimeline.add(
+            gsap.to(heroBlock, {
+              width: "100%",
+              ease: "power1.out",
+              duration: 0.1,
+            }),
+            gsap.to(bottomTextWrapper, {
+              opacity: 1,
+              ease: "power1.in",
+              duration: 0.1,
+            }),
+            gsap.to(block, {
+              width: "15%",
+              ease: "power1.out",
+              duration: 0.1,
+            }),
+            gsap.to(block.querySelector(".hero-collumn"), {
+              width: "100%",
+              ease: "power1.out",
+              duration: 0.1,
+            }),
+            gsap.to(block.querySelector(".hero-card_-bottom-text-wrapper"), {
+              opacity: 0,
+              ease: "power1.in",
+              duration: 0.1,
+            }),
+            gsap.to(staticImg, {
+              opacity: 0,
+              ease: "power1.out",
+              duration: 0.1,
+            }),
+            gsap.to(verticalTextContainer, {
+              width: "0",
+              ease: "power1.out",
+              duration: 0.1,
+            })
+          );
+        }
+
+        heroBlock.querySelector(".video-lottie.is-updated").play();
+      });
+    });
+
+    brandWrapper.addEventListener("mouseleave", function (e) {
+      enterTimeline.clear();
+      leaveTimeline.clear();
+
+      heroBlocks.forEach(function (block) {
+        leaveTimeline
+          .add(
+            gsap.to(block, {
+              width: divCards + "%",
+              ease: "power1.out",
+              duration: 0.1,
+            }),
+            gsap.to(block.querySelector(".hero-collumn"), {
+              width: "0%",
+              ease: "power1.out",
+              duration: 0.1,
+            }),
+            gsap.to(block.querySelector(".brand-identity-img"), {
+              opacity: 1,
+              ease: "power1.out",
+              duration: 0.1,
+            })
+          )
+          .to(block.querySelector(".hero-card_-bottom-text-wrapper"), {
+            opacity: 1,
+            ease: "power1.in",
+            duration: 0,
+          });
+        if (
+          block
+            .querySelector(".video-lottie.is-updated")
+            .tagName.toLowerCase() === "video"
+        ) {
+          block.querySelector(".video-lottie.is-updated").pause();
+          block.querySelector(".video-lottie.is-updated").currentTime = 0;
+        } else {
+          block.querySelector(".video-lottie.is-updated").stop();
+        }
+
+        // block.querySelector(".video-lottie.is-updated").pause();
+        // block.querySelector(".video-lottie.is-updated").currentTime = 0;
+      });
+    });
+  });
+});
