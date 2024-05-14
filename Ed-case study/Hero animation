@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const heroBlocks = document.querySelectorAll(".brand-identity-block.hero");
+  const heroBlocks = document.querySelectorAll(".brand-identity-block 2.hero");
   const brandWrapper = document.querySelector(".brand-identity-wrapper");
 
   let numCards = heroBlocks.length;
@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   heroBlocks.forEach(function (heroBlock) {
     const staticImg = heroBlock.querySelector(".brand-identity-img");
-    const verticalTextContainer = heroBlock.querySelector(".hero-collumn");
+    const verticalTextContainer = heroBlock.querySelector(".hero-collumn 2");
     const bottomTextWrapper = heroBlock.querySelector(
-      ".hero-card_-bottom-text-wrapper"
+      ".hero-card_-bottom-text-wrapper 2"
     );
 
     let enterTimeline = gsap.timeline();
@@ -36,16 +36,16 @@ document.addEventListener("DOMContentLoaded", function () {
               duration: 0.1,
             }),
             gsap.to(block, {
-              width: "15%",
+              width: "auto",
               ease: "power1.out",
               duration: 0.1,
             }),
-            gsap.to(block.querySelector(".hero-collumn"), {
+            gsap.to(block.querySelector(".hero-collumn 2"), {
               width: "100%",
               ease: "power1.out",
               duration: 0.1,
             }),
-            gsap.to(block.querySelector(".hero-card_-bottom-text-wrapper"), {
+            gsap.to(block.querySelector(".hero-card_-bottom-text-wrapper 2"), {
               opacity: 0,
               ease: "power1.in",
               duration: 0.1,
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
               ease: "power1.out",
               duration: 0.1,
             }),
-            gsap.to(block.querySelector(".hero-collumn"), {
+            gsap.to(block.querySelector(".hero-collumn 2"), {
               width: "0%",
               ease: "power1.out",
               duration: 0.1,
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
               duration: 0.1,
             })
           )
-          .to(block.querySelector(".hero-card_-bottom-text-wrapper"), {
+          .to(block.querySelector(".hero-card_-bottom-text-wrapper 2"), {
             opacity: 1,
             ease: "power1.in",
             duration: 0,
