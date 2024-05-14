@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const heroBlocks = document.querySelectorAll(".brand-identity-block 2.hero");
+  const heroBlocks = document.querySelectorAll(".Brand-identity-block-2");
   const brandWrapper = document.querySelector(".brand-identity-wrapper");
 
   let numCards = heroBlocks.length;
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
               duration: 0.1,
             }),
             gsap.to(block, {
-              width: "auto",
+              width: "15%",
               ease: "power1.out",
               duration: 0.1,
             }),
@@ -112,3 +112,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
