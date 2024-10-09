@@ -79,7 +79,8 @@ const swiper1 = new Swiper(".swiper1", {
     480: {
       slidesPerView: 1, // Show 1 slide per view on mobile
       slidesPerGroup: 1, // Move 1 slide per swipe on mobile
-      allowTouchMove: true, // Ensure touch is enabled on mobile
+      allowTouchMove: true,
+      spaceBetween: 2,
     },
     // For tablets (768px and below)
     768: {
