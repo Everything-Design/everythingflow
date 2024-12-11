@@ -1,4 +1,4 @@
-# Everything Flow Repository
+# Everything Flow Public Repo
 <img src="https://github.com/Everything-Design/everythingflow/assets/154067265/1c29e213-d355-46d0-a9a3-deb8732cabf7" width="200" alt="Everything Flow Monorepo">
 
 Welcome to the Everything Flow repository! This repository is your one-stop solution for integrating Everything Flow projects with Webflow. Follow the instructions below to use the projects in your Webflow site.
