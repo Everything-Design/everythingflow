@@ -46,7 +46,7 @@
                         transition: 500ms background-color ease;
                     }
                     .ef-re-brand-logo {  
-                        width: 1.2em;  
+                        width: 1.2em !important;  
                     }
                     .ef-re-wrap {
                         display: flex;
