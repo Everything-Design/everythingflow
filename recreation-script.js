@@ -5,10 +5,23 @@
             <div class="w-embed">
                 <style>
                     .ef-recreation-tag {
+                        z-index: 40;
+                        grid-column-gap: .4rem;
+                        grid-row-gap: .4rem;
+                        outline-offset: -1px;
+                        background-color: #c4cc25;
+                        border-radius: .25rem;
+                        outline: 1px solid #003325;
+                        justify-content: flex-start;
+                        align-items: center;
+                        width: auto;
+                        padding: .5em .5em .5em .2em;
+                        font-size: 1rem;
+                        display: flex;
+                        position: fixed;
+                        inset: auto auto .5em .5em;
+                        box-shadow: inset 0 1px 4px #0003;
                         transition: 500ms background-color ease;
-                        display: inline-block;
-                        padding: 10px;
-                        border-radius: 8px;
                     }
                     .ef-recreation-tag:hover {
                         background-color: #DCE07C;
