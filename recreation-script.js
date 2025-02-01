@@ -23,6 +23,35 @@
                         box-shadow: inset 0 1px 4px #0003;
                         transition: 500ms background-color ease;
                     }
+                    .ef-re-logo {  
+                        width: 100%;  
+                        max-width: 1.2em;
+                    }
+                    .ef-re-wrap {
+                        display: flex;
+                        width: 100%;
+                        flex-direction: column;
+                        flex-wrap: nowrap;
+                    }
+                    .abs-content-img {
+                        position: absolute;
+                        left: 0rem;
+                        bottom: 100%;
+                        z-index: 20;
+                        width: 100%;
+                        max-width: 13rem;
+                        padding-top: 0.5rem;
+                        padding-right: 0.5rem;
+                        padding-bottom: 0.5rem;
+                        padding-left: 0.5rem;
+                        border-top-left-radius: 0.25em;
+                        border-top-right-radius: 0.25em;
+                        background-color: hsla(0, 0.00%, 100.00%, 1.00);
+                    }
+                    .ef-re-text {
+                        width: 100%;
+                        max-width: 12em;
+                    }
                     .ef-recreation-tag:hover {
                         background-color: #DCE07C;
                     }
