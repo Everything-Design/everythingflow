@@ -83,6 +83,12 @@
                     .ef-recreation-tag:hover .ef-re-wrap .abs-content-img {
                         opacity: 1;
                     }
+                    p{
+                    line-height:1;
+                    text-deocration:none;
+                    color: inherit;
+                    }
+                    
                 </style>
             </div>
             <img src="https://cdn.prod.website-files.com/6435988d3f4500e4270fb5a3/6435988d3f450020310fb5ee_Everything%20Design%20Webclip.webp" 
