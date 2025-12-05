@@ -1,0 +1,1749 @@
+[
+  {
+    "name": "Afghanistan",
+    "iso2": "AF",
+    "dial_code": "+93",
+    "flag": "🇦🇫",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "70 123 4567"
+  },
+  {
+    "name": "Albania",
+    "iso2": "AL",
+    "dial_code": "+355",
+    "flag": "🇦🇱",
+    "min_length": 8,
+    "max_length": 9,
+    "placeholder": "69 123 4567"
+  },
+  {
+    "name": "Algeria",
+    "iso2": "DZ",
+    "dial_code": "+213",
+    "flag": "🇩🇿",
+    "min_length": 8,
+    "max_length": 9,
+    "placeholder": "55 12 34 56"
+  },
+  {
+    "name": "Andorra",
+    "iso2": "AD",
+    "dial_code": "+376",
+    "flag": "🇦🇩",
+    "min_length": 6,
+    "max_length": 6,
+    "placeholder": "312 345"
+  },
+  {
+    "name": "Angola",
+    "iso2": "AO",
+    "dial_code": "+244",
+    "flag": "🇦🇴",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "922 123 456"
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "iso2": "AG",
+    "dial_code": "+1268",
+    "flag": "🇦🇬",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "(268) 720-1234"
+  },
+  {
+    "name": "Argentina",
+    "iso2": "AR",
+    "dial_code": "+54",
+    "flag": "🇦🇷",
+    "min_length": 10,
+    "max_length": 10,
+    "placeholder": "11 6123 4567"
+  },
+  {
+    "name": "Armenia",
+    "iso2": "AM",
+    "dial_code": "+374",
+    "flag": "🇦🇲",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "91 123456"
+  },
+  {
+    "name": "Australia",
+    "iso2": "AU",
+    "dial_code": "+61",
+    "flag": "🇦🇺",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "4 12 345 678"
+  },
+  {
+    "name": "Austria",
+    "iso2": "AT",
+    "dial_code": "+43",
+    "flag": "🇦🇹",
+    "min_length": 10,
+    "max_length": 13,
+    "placeholder": "660 123 4567"
+  },
+  {
+    "name": "Azerbaijan",
+    "iso2": "AZ",
+    "dial_code": "+994",
+    "flag": "🇦🇿",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "50 123 45 67"
+  },
+  {
+    "name": "Bahamas",
+    "iso2": "BS",
+    "dial_code": "+1242",
+    "flag": "🇧🇸",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "(242) 352-1234"
+  },
+  {
+    "name": "Bahrain",
+    "iso2": "BH",
+    "dial_code": "+973",
+    "flag": "🇧🇭",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "3412 3456"
+  },
+  {
+    "name": "Bangladesh",
+    "iso2": "BD",
+    "dial_code": "+880",
+    "flag": "🇧🇩",
+    "min_length": 10,
+    "max_length": 11,
+    "placeholder": "17 1234 5678"
+  },
+  {
+    "name": "Barbados",
+    "iso2": "BB",
+    "dial_code": "+1246",
+    "flag": "🇧🇧",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "(246) 250-1234"
+  },
+  {
+    "name": "Belarus",
+    "iso2": "BY",
+    "dial_code": "+375",
+    "flag": "🇧🇾",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "29 123 45 67"
+  },
+  {
+    "name": "Belgium",
+    "iso2": "BE",
+    "dial_code": "+32",
+    "flag": "🇧🇪",
+    "min_length": 8,
+    "max_length": 9,
+    "placeholder": "470 12 34 56"
+  },
+  {
+    "name": "Belize",
+    "iso2": "BZ",
+    "dial_code": "+501",
+    "flag": "🇧🇿",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "601 2345"
+  },
+  {
+    "name": "Benin",
+    "iso2": "BJ",
+    "dial_code": "+229",
+    "flag": "🇧🇯",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "90 12 34 56"
+  },
+  {
+    "name": "Bhutan",
+    "iso2": "BT",
+    "dial_code": "+975",
+    "flag": "🇧🇹",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "17 12 34 56"
+  },
+  {
+    "name": "Bolivia",
+    "iso2": "BO",
+    "dial_code": "+591",
+    "flag": "🇧🇴",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "7 123 4567"
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "iso2": "BA",
+    "dial_code": "+387",
+    "flag": "🇧🇦",
+    "min_length": 8,
+    "max_length": 9,
+    "placeholder": "60 123 456"
+  },
+  {
+    "name": "Botswana",
+    "iso2": "BW",
+    "dial_code": "+267",
+    "flag": "🇧🇼",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "71 123 456"
+  },
+  {
+    "name": "Brazil",
+    "iso2": "BR",
+    "dial_code": "+55",
+    "flag": "🇧🇷",
+    "min_length": 10,
+    "max_length": 11,
+    "placeholder": "11 91234-5678"
+  },
+  {
+    "name": "Brunei",
+    "iso2": "BN",
+    "dial_code": "+673",
+    "flag": "🇧🇳",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "712 3456"
+  },
+  {
+    "name": "Bulgaria",
+    "iso2": "BG",
+    "dial_code": "+359",
+    "flag": "🇧🇬",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "88 123 4567"
+  },
+  {
+    "name": "Burkina Faso",
+    "iso2": "BF",
+    "dial_code": "+226",
+    "flag": "🇧🇫",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "70 12 34 56"
+  },
+  {
+    "name": "Burundi",
+    "iso2": "BI",
+    "dial_code": "+257",
+    "flag": "🇧🇮",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "79 12 34 56"
+  },
+  {
+    "name": "Cabo Verde",
+    "iso2": "CV",
+    "dial_code": "+238",
+    "flag": "🇨🇻",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "991 2345"
+  },
+  {
+    "name": "Cambodia",
+    "iso2": "KH",
+    "dial_code": "+855",
+    "flag": "🇰🇭",
+    "min_length": 8,
+    "max_length": 9,
+    "placeholder": "12 345 678"
+  },
+  {
+    "name": "Cameroon",
+    "iso2": "CM",
+    "dial_code": "+237",
+    "flag": "🇨🇲",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "6 70 12 34 56"
+  },
+  {
+    "name": "Canada",
+    "iso2": "CA",
+    "dial_code": "+1",
+    "flag": "🇨🇦",
+    "min_length": 10,
+    "max_length": 10,
+    "placeholder": "(416) 555-0123"
+  },
+  {
+    "name": "Central African Republic",
+    "iso2": "CF",
+    "dial_code": "+236",
+    "flag": "🇨🇫",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "70 12 34 56"
+  },
+  {
+    "name": "Chad",
+    "iso2": "TD",
+    "dial_code": "+235",
+    "flag": "🇹🇩",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "60 12 34 56"
+  },
+  {
+    "name": "Chile",
+    "iso2": "CL",
+    "dial_code": "+56",
+    "flag": "🇨🇱",
+    "min_length": 8,
+    "max_length": 9,
+    "placeholder": "9 6123 4567"
+  },
+  {
+    "name": "China",
+    "iso2": "CN",
+    "dial_code": "+86",
+    "flag": "🇨🇳",
+    "min_length": 11,
+    "max_length": 11,
+    "placeholder": "139 1234 5678"
+  },
+  {
+    "name": "Colombia",
+    "iso2": "CO",
+    "dial_code": "+57",
+    "flag": "🇨🇴",
+    "min_length": 10,
+    "max_length": 10,
+    "placeholder": "320 1234567"
+  },
+  {
+    "name": "Comoros",
+    "iso2": "KM",
+    "dial_code": "+269",
+    "flag": "🇰🇲",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "321 2345"
+  },
+  {
+    "name": "Congo (Brazzaville)",
+    "iso2": "CG",
+    "dial_code": "+242",
+    "flag": "🇨🇬",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "06 123 456"
+  },
+  {
+    "name": "Congo (Kinshasa)",
+    "iso2": "CD",
+    "dial_code": "+243",
+    "flag": "🇨🇩",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "81 234 5678"
+  },
+  {
+    "name": "Costa Rica",
+    "iso2": "CR",
+    "dial_code": "+506",
+    "flag": "🇨🇷",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "8444 1234"
+  },
+  {
+    "name": "Croatia",
+    "iso2": "HR",
+    "dial_code": "+385",
+    "flag": "🇭🇷",
+    "min_length": 8,
+    "max_length": 9,
+    "placeholder": "91 123 4567"
+  },
+  {
+    "name": "Cuba",
+    "iso2": "CU",
+    "dial_code": "+53",
+    "flag": "🇨🇺",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "5 123 4567"
+  },
+  {
+    "name": "Cyprus",
+    "iso2": "CY",
+    "dial_code": "+357",
+    "flag": "🇨🇾",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "97 123456"
+  },
+  {
+    "name": "Czechia",
+    "iso2": "CZ",
+    "dial_code": "+420",
+    "flag": "🇨🇿",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "601 123 456"
+  }
+]
+[
+  {
+    "name": "Denmark",
+    "iso2": "DK",
+    "dial_code": "+45",
+    "flag": "🇩🇰",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "20 12 34 56"
+  },
+  {
+    "name": "Djibouti",
+    "iso2": "DJ",
+    "dial_code": "+253",
+    "flag": "🇩🇯",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "77 12 34 56"
+  },
+  {
+    "name": "Dominica",
+    "iso2": "DM",
+    "dial_code": "+1767",
+    "flag": "🇩🇲",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "(767) 445-1234"
+  },
+  {
+    "name": "Dominican Republic",
+    "iso2": "DO",
+    "dial_code": "+1809",
+    "flag": "🇩🇴",
+    "min_length": 10,
+    "max_length": 11,
+    "placeholder": "809 612 3456"
+  },
+  {
+    "name": "Ecuador",
+    "iso2": "EC",
+    "dial_code": "+593",
+    "flag": "🇪🇨",
+    "min_length": 9,
+    "max_length": 10,
+    "placeholder": "98 123 4567"
+  },
+  {
+    "name": "Egypt",
+    "iso2": "EG",
+    "dial_code": "+20",
+    "flag": "🇪🇬",
+    "min_length": 8,
+    "max_length": 11,
+    "placeholder": "010 123 45678"
+  },
+  {
+    "name": "El Salvador",
+    "iso2": "SV",
+    "dial_code": "+503",
+    "flag": "🇸🇻",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "7012 3456"
+  },
+  {
+    "name": "Equatorial Guinea",
+    "iso2": "GQ",
+    "dial_code": "+240",
+    "flag": "🇬🇶",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "222 123 456"
+  },
+  {
+    "name": "Eritrea",
+    "iso2": "ER",
+    "dial_code": "+291",
+    "flag": "🇪🇷",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "7 123 456"
+  },
+  {
+    "name": "Estonia",
+    "iso2": "EE",
+    "dial_code": "+372",
+    "flag": "🇪🇪",
+    "min_length": 7,
+    "max_length": 8,
+    "placeholder": "50 12 345"
+  },
+  {
+    "name": "Eswatini",
+    "iso2": "SZ",
+    "dial_code": "+268",
+    "flag": "🇸🇿",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "7612 3456"
+  },
+  {
+    "name": "Ethiopia",
+    "iso2": "ET",
+    "dial_code": "+251",
+    "flag": "🇪🇹",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "91 123 4567"
+  },
+  {
+    "name": "Fiji",
+    "iso2": "FJ",
+    "dial_code": "+679",
+    "flag": "🇫🇯",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "712 3456"
+  },
+  {
+    "name": "Finland",
+    "iso2": "FI",
+    "dial_code": "+358",
+    "flag": "🇫🇮",
+    "min_length": 8,
+    "max_length": 10,
+    "placeholder": "40 123 4567"
+  },
+  {
+    "name": "France",
+    "iso2": "FR",
+    "dial_code": "+33",
+    "flag": "🇫🇷",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "6 12 34 56 78"
+  },
+  {
+    "name": "Gabon",
+    "iso2": "GA",
+    "dial_code": "+241",
+    "flag": "🇬🇦",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "06 12 34 56"
+  },
+  {
+    "name": "Gambia",
+    "iso2": "GM",
+    "dial_code": "+220",
+    "flag": "🇬🇲",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "797 1234"
+  },
+  {
+    "name": "Georgia",
+    "iso2": "GE",
+    "dial_code": "+995",
+    "flag": "🇬🇪",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "555 12 34 56"
+  },
+  {
+    "name": "Germany",
+    "iso2": "DE",
+    "dial_code": "+49",
+    "flag": "🇩🇪",
+    "min_length": 7,
+    "max_length": 11,
+    "placeholder": "0151 1234567"
+  },
+  {
+    "name": "Ghana",
+    "iso2": "GH",
+    "dial_code": "+233",
+    "flag": "🇬🇭",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "24 123 4567"
+  },
+  {
+    "name": "Greece",
+    "iso2": "GR",
+    "dial_code": "+30",
+    "flag": "🇬🇷",
+    "min_length": 10,
+    "max_length": 10,
+    "placeholder": "694 123 4567"
+  },
+  {
+    "name": "Grenada",
+    "iso2": "GD",
+    "dial_code": "+1473",
+    "flag": "🇬🇩",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "(473) 410-1234"
+  },
+  {
+    "name": "Guatemala",
+    "iso2": "GT",
+    "dial_code": "+502",
+    "flag": "🇬🇹",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "5123 4567"
+  },
+  {
+    "name": "Guinea",
+    "iso2": "GN",
+    "dial_code": "+224",
+    "flag": "🇬🇳",
+    "min_length": 8,
+    "max_length": 9,
+    "placeholder": "601 23 45"
+  },
+  {
+    "name": "Guinea-Bissau",
+    "iso2": "GW",
+    "dial_code": "+245",
+    "flag": "🇬🇼",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "955 1234"
+  },
+  {
+    "name": "Guyana",
+    "iso2": "GY",
+    "dial_code": "+592",
+    "flag": "🇬🇾",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "650 1234"
+  },
+  {
+    "name": "Haiti",
+    "iso2": "HT",
+    "dial_code": "+509",
+    "flag": "🇭🇹",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "34 12 3456"
+  },
+  {
+    "name": "Honduras",
+    "iso2": "HN",
+    "dial_code": "+504",
+    "flag": "🇭🇳",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "9123 4567"
+  },
+  {
+    "name": "Hungary",
+    "iso2": "HU",
+    "dial_code": "+36",
+    "flag": "🇭🇺",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "20 123 4567"
+  },
+  {
+    "name": "Iceland",
+    "iso2": "IS",
+    "dial_code": "+354",
+    "flag": "🇮🇸",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "691 2345"
+  },
+  {
+    "name": "India",
+    "iso2": "IN",
+    "dial_code": "+91",
+    "flag": "🇮🇳",
+    "min_length": 10,
+    "max_length": 10,
+    "placeholder": "98765 43210"
+  },
+  {
+    "name": "Indonesia",
+    "iso2": "ID",
+    "dial_code": "+62",
+    "flag": "🇮🇩",
+    "min_length": 10,
+    "max_length": 13,
+    "placeholder": "812 3456 7890"
+  },
+  {
+    "name": "Iran",
+    "iso2": "IR",
+    "dial_code": "+98",
+    "flag": "🇮🇷",
+    "min_length": 10,
+    "max_length": 10,
+    "placeholder": "0912 123 4567"
+  },
+  {
+    "name": "Iraq",
+    "iso2": "IQ",
+    "dial_code": "+964",
+    "flag": "🇮🇶",
+    "min_length": 10,
+    "max_length": 10,
+    "placeholder": "790 123 4567"
+  },
+  {
+    "name": "Ireland",
+    "iso2": "IE",
+    "dial_code": "+353",
+    "flag": "🇮🇪",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "85 123 4567"
+  },
+  {
+    "name": "Israel",
+    "iso2": "IL",
+    "dial_code": "+972",
+    "flag": "🇮🇱",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "52 123 4567"
+  },
+  {
+    "name": "Italy",
+    "iso2": "IT",
+    "dial_code": "+39",
+    "flag": "🇮🇹",
+    "min_length": 9,
+    "max_length": 10,
+    "placeholder": "312 345 6789"
+  },
+  {
+    "name": "Ivory Coast",
+    "iso2": "CI",
+    "dial_code": "+225",
+    "flag": "🇨🇮",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "07 12 34 56"
+  }
+]
+[
+  {
+    "name": "Jamaica",
+    "iso2": "JM",
+    "dial_code": "+1876",
+    "flag": "🇯🇲",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "(876) 402-1234"
+  },
+  {
+    "name": "Japan",
+    "iso2": "JP",
+    "dial_code": "+81",
+    "flag": "🇯🇵",
+    "min_length": 10,
+    "max_length": 10,
+    "placeholder": "090 1234 5678"
+  },
+  {
+    "name": "Jordan",
+    "iso2": "JO",
+    "dial_code": "+962",
+    "flag": "🇯🇴",
+    "min_length": 8,
+    "max_length": 9,
+    "placeholder": "79 123 4567"
+  },
+  {
+    "name": "Kazakhstan",
+    "iso2": "KZ",
+    "dial_code": "+7",
+    "flag": "🇰🇿",
+    "min_length": 10,
+    "max_length": 10,
+    "placeholder": "777 123 45 67"
+  },
+  {
+    "name": "Kenya",
+    "iso2": "KE",
+    "dial_code": "+254",
+    "flag": "🇰🇪",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "712 123 456"
+  },
+  {
+    "name": "Kiribati",
+    "iso2": "KI",
+    "dial_code": "+686",
+    "flag": "🇰🇮",
+    "min_length": 5,
+    "max_length": 5,
+    "placeholder": "75123"
+  },
+  {
+    "name": "Kuwait",
+    "iso2": "KW",
+    "dial_code": "+965",
+    "flag": "🇰🇼",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "6500 1234"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "iso2": "KG",
+    "dial_code": "+996",
+    "flag": "🇰🇬",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "700 123 456"
+  },
+  {
+    "name": "Laos",
+    "iso2": "LA",
+    "dial_code": "+856",
+    "flag": "🇱🇦",
+    "min_length": 8,
+    "max_length": 9,
+    "placeholder": "20 123 4567"
+  },
+  {
+    "name": "Latvia",
+    "iso2": "LV",
+    "dial_code": "+371",
+    "flag": "🇱🇻",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "21 123 456"
+  },
+  {
+    "name": "Lebanon",
+    "iso2": "LB",
+    "dial_code": "+961",
+    "flag": "🇱🇧",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "70 123 456"
+  },
+  {
+    "name": "Lesotho",
+    "iso2": "LS",
+    "dial_code": "+266",
+    "flag": "🇱🇸",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "5801 2345"
+  },
+  {
+    "name": "Liberia",
+    "iso2": "LR",
+    "dial_code": "+231",
+    "flag": "🇱🇷",
+    "min_length": 7,
+    "max_length": 8,
+    "placeholder": "77 123 456"
+  },
+  {
+    "name": "Libya",
+    "iso2": "LY",
+    "dial_code": "+218",
+    "flag": "🇱🇾",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "91 123 4567"
+  },
+  {
+    "name": "Liechtenstein",
+    "iso2": "LI",
+    "dial_code": "+423",
+    "flag": "🇱🇮",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "660 1234"
+  },
+  {
+    "name": "Lithuania",
+    "iso2": "LT",
+    "dial_code": "+370",
+    "flag": "🇱🇹",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "612 34567"
+  },
+  {
+    "name": "Luxembourg",
+    "iso2": "LU",
+    "dial_code": "+352",
+    "flag": "🇱🇺",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "621 123 456"
+  },
+  {
+    "name": "Madagascar",
+    "iso2": "MG",
+    "dial_code": "+261",
+    "flag": "🇲🇬",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "32 12 345 67"
+  },
+  {
+    "name": "Malawi",
+    "iso2": "MW",
+    "dial_code": "+265",
+    "flag": "🇲🇼",
+    "min_length": 7,
+    "max_length": 9,
+    "placeholder": "991 234 567"
+  },
+  {
+    "name": "Malaysia",
+    "iso2": "MY",
+    "dial_code": "+60",
+    "flag": "🇲🇾",
+    "min_length": 9,
+    "max_length": 10,
+    "placeholder": "12 345 6789"
+  },
+  {
+    "name": "Maldives",
+    "iso2": "MV",
+    "dial_code": "+960",
+    "flag": "🇲🇻",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "771 2345"
+  },
+  {
+    "name": "Mali",
+    "iso2": "ML",
+    "dial_code": "+223",
+    "flag": "🇲🇱",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "65 12 34 56"
+  },
+  {
+    "name": "Malta",
+    "iso2": "MT",
+    "dial_code": "+356",
+    "flag": "🇲🇹",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "79 123 456"
+  },
+  {
+    "name": "Marshall Islands",
+    "iso2": "MH",
+    "dial_code": "+692",
+    "flag": "🇲🇭",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "235 1234"
+  },
+  {
+    "name": "Mauritania",
+    "iso2": "MR",
+    "dial_code": "+222",
+    "flag": "🇲🇷",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "22 12 34 56"
+  },
+  {
+    "name": "Mauritius",
+    "iso2": "MU",
+    "dial_code": "+230",
+    "flag": "🇲🇺",
+    "min_length": 7,
+    "max_length": 8,
+    "placeholder": "5712 3456"
+  },
+  {
+    "name": "Mexico",
+    "iso2": "MX",
+    "dial_code": "+52",
+    "flag": "🇲🇽",
+    "min_length": 10,
+    "max_length": 11,
+    "placeholder": "55 1234 5678"
+  },
+  {
+    "name": "Micronesia",
+    "iso2": "FM",
+    "dial_code": "+691",
+    "flag": "🇫🇲",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "350 1234"
+  },
+  {
+    "name": "Moldova",
+    "iso2": "MD",
+    "dial_code": "+373",
+    "flag": "🇲🇩",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "60 12 34 56"
+  },
+  {
+    "name": "Monaco",
+    "iso2": "MC",
+    "dial_code": "+377",
+    "flag": "🇲🇨",
+    "min_length": 8,
+    "max_length": 9,
+    "placeholder": "6 12 34 56"
+  },
+  {
+    "name": "Mongolia",
+    "iso2": "MN",
+    "dial_code": "+976",
+    "flag": "🇲🇳",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "8812 3456"
+  },
+  {
+    "name": "Montenegro",
+    "iso2": "ME",
+    "dial_code": "+382",
+    "flag": "🇲🇪",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "67 123 456"
+  },
+  {
+    "name": "Morocco",
+    "iso2": "MA",
+    "dial_code": "+212",
+    "flag": "🇲🇦",
+    "min_length": 9,
+    "max_length": 10,
+    "placeholder": "06 12 34 567"
+  },
+  {
+    "name": "Mozambique",
+    "iso2": "MZ",
+    "dial_code": "+258",
+    "flag": "🇲🇿",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "82 123 4567"
+  },
+  {
+    "name": "Myanmar",
+    "iso2": "MM",
+    "dial_code": "+95",
+    "flag": "🇲🇲",
+    "min_length": 8,
+    "max_length": 11,
+    "placeholder": "09 123 4567"
+  }
+]
+[
+  {
+    "name": "Namibia",
+    "iso2": "NA",
+    "dial_code": "+264",
+    "flag": "🇳🇦",
+    "min_length": 10,
+    "max_length": 10,
+    "placeholder": "81 234 5678"
+  },
+  {
+    "name": "Nauru",
+    "iso2": "NR",
+    "dial_code": "+674",
+    "flag": "🇳🇷",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "555 1234"
+  },
+  {
+    "name": "Nepal",
+    "iso2": "NP",
+    "dial_code": "+977",
+    "flag": "🇳🇵",
+    "min_length": 10,
+    "max_length": 10,
+    "placeholder": "984 123 4567"
+  },
+  {
+    "name": "Netherlands",
+    "iso2": "NL",
+    "dial_code": "+31",
+    "flag": "🇳🇱",
+    "min_length": 9,
+    "max_length": 10,
+    "placeholder": "6 12 34 56 78"
+  },
+  {
+    "name": "New Zealand",
+    "iso2": "NZ",
+    "dial_code": "+64",
+    "flag": "🇳🇿",
+    "min_length": 9,
+    "max_length": 10,
+    "placeholder": "21 123 4567"
+  },
+  {
+    "name": "Nicaragua",
+    "iso2": "NI",
+    "dial_code": "+505",
+    "flag": "🇳🇮",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "8123 4567"
+  },
+  {
+    "name": "Niger",
+    "iso2": "NE",
+    "dial_code": "+227",
+    "flag": "🇳🇪",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "93 12 34 56"
+  },
+  {
+    "name": "Nigeria",
+    "iso2": "NG",
+    "dial_code": "+234",
+    "flag": "🇳🇬",
+    "min_length": 10,
+    "max_length": 10,
+    "placeholder": "802 123 4567"
+  },
+  {
+    "name": "North Korea",
+    "iso2": "KP",
+    "dial_code": "+850",
+    "flag": "🇰🇵",
+    "min_length": 10,
+    "max_length": 10,
+    "placeholder": "191 234 5678"
+  },
+  {
+    "name": "North Macedonia",
+    "iso2": "MK",
+    "dial_code": "+389",
+    "flag": "🇲🇰",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "72 123 456"
+  },
+  {
+    "name": "Norway",
+    "iso2": "NO",
+    "dial_code": "+47",
+    "flag": "🇳🇴",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "412 34 567"
+  },
+  {
+    "name": "Oman",
+    "iso2": "OM",
+    "dial_code": "+968",
+    "flag": "🇴🇲",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "9212 3456"
+  },
+  {
+    "name": "Pakistan",
+    "iso2": "PK",
+    "dial_code": "+92",
+    "flag": "🇵🇰",
+    "min_length": 10,
+    "max_length": 10,
+    "placeholder": "300 1234567"
+  },
+  {
+    "name": "Palau",
+    "iso2": "PW",
+    "dial_code": "+680",
+    "flag": "🇵🇼",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "488 1234"
+  },
+  {
+    "name": "Panama",
+    "iso2": "PA",
+    "dial_code": "+507",
+    "flag": "🇵🇦",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "6001 2345"
+  },
+  {
+    "name": "Papua New Guinea",
+    "iso2": "PG",
+    "dial_code": "+675",
+    "flag": "🇵🇬",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "7212 3456"
+  },
+  {
+    "name": "Paraguay",
+    "iso2": "PY",
+    "dial_code": "+595",
+    "flag": "🇵🇾",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "981 123456"
+  },
+  {
+    "name": "Peru",
+    "iso2": "PE",
+    "dial_code": "+51",
+    "flag": "🇵🇪",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "912 345 678"
+  },
+  {
+    "name": "Philippines",
+    "iso2": "PH",
+    "dial_code": "+63",
+    "flag": "🇵🇭",
+    "min_length": 10,
+    "max_length": 10,
+    "placeholder": "917 123 4567"
+  },
+  {
+    "name": "Poland",
+    "iso2": "PL",
+    "dial_code": "+48",
+    "flag": "🇵🇱",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "512 345 678"
+  },
+  {
+    "name": "Portugal",
+    "iso2": "PT",
+    "dial_code": "+351",
+    "flag": "🇵🇹",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "912 345 678"
+  },
+  {
+    "name": "Qatar",
+    "iso2": "QA",
+    "dial_code": "+974",
+    "flag": "🇶🇦",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "3312 3456"
+  }
+]
+[
+  {
+    "name": "Romania",
+    "iso2": "RO",
+    "dial_code": "+40",
+    "flag": "🇷🇴",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "712 345 678"
+  },
+  {
+    "name": "Russia",
+    "iso2": "RU",
+    "dial_code": "+7",
+    "flag": "🇷🇺",
+    "min_length": 10,
+    "max_length": 10,
+    "placeholder": "912 345 67 89"
+  },
+  {
+    "name": "Rwanda",
+    "iso2": "RW",
+    "dial_code": "+250",
+    "flag": "🇷🇼",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "72 123 4567"
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "iso2": "KN",
+    "dial_code": "+1869",
+    "flag": "🇰🇳",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "(869) 764-1234"
+  },
+  {
+    "name": "Saint Lucia",
+    "iso2": "LC",
+    "dial_code": "+1758",
+    "flag": "🇱🇨",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "(758) 720-1234"
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "iso2": "VC",
+    "dial_code": "+1784",
+    "flag": "🇻🇨",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "(784) 430-1234"
+  },
+  {
+    "name": "Samoa",
+    "iso2": "WS",
+    "dial_code": "+685",
+    "flag": "🇼🇸",
+    "min_length": 5,
+    "max_length": 7,
+    "placeholder": "721 2345"
+  },
+  {
+    "name": "San Marino",
+    "iso2": "SM",
+    "dial_code": "+378",
+    "flag": "🇸🇲",
+    "min_length": 6,
+    "max_length": 10,
+    "placeholder": "66 12 34"
+  },
+  {
+    "name": "Sao Tome and Principe",
+    "iso2": "ST",
+    "dial_code": "+239",
+    "flag": "🇸🇹",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "990 1234"
+  },
+  {
+    "name": "Saudi Arabia",
+    "iso2": "SA",
+    "dial_code": "+966",
+    "flag": "🇸🇦",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "50 123 4567"
+  },
+  {
+    "name": "Senegal",
+    "iso2": "SN",
+    "dial_code": "+221",
+    "flag": "🇸🇳",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "70 123 4567"
+  },
+  {
+    "name": "Serbia",
+    "iso2": "RS",
+    "dial_code": "+381",
+    "flag": "🇷🇸",
+    "min_length": 8,
+    "max_length": 9,
+    "placeholder": "60 123 4567"
+  },
+  {
+    "name": "Seychelles",
+    "iso2": "SC",
+    "dial_code": "+248",
+    "flag": "🇸🇨",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "251 2345"
+  },
+  {
+    "name": "Sierra Leone",
+    "iso2": "SL",
+    "dial_code": "+232",
+    "flag": "🇸🇱",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "76 123 456"
+  },
+  {
+    "name": "Singapore",
+    "iso2": "SG",
+    "dial_code": "+65",
+    "flag": "🇸🇬",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "8123 4567"
+  },
+  {
+    "name": "Slovakia",
+    "iso2": "SK",
+    "dial_code": "+421",
+    "flag": "🇸🇰",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "912 345 678"
+  },
+  {
+    "name": "Slovenia",
+    "iso2": "SI",
+    "dial_code": "+386",
+    "flag": "🇸🇮",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "31 234 567"
+  },
+  {
+    "name": "Solomon Islands",
+    "iso2": "SB",
+    "dial_code": "+677",
+    "flag": "🇸🇧",
+    "min_length": 5,
+    "max_length": 7,
+    "placeholder": "74912"
+  },
+  {
+    "name": "Somalia",
+    "iso2": "SO",
+    "dial_code": "+252",
+    "flag": "🇸🇴",
+    "min_length": 8,
+    "max_length": 9,
+    "placeholder": "61 123 4567"
+  },
+  {
+    "name": "South Africa",
+    "iso2": "ZA",
+    "dial_code": "+27",
+    "flag": "🇿🇦",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "82 123 4567"
+  },
+  {
+    "name": "South Korea",
+    "iso2": "KR",
+    "dial_code": "+82",
+    "flag": "🇰🇷",
+    "min_length": 10,
+    "max_length": 11,
+    "placeholder": "010 1234 5678"
+  },
+  {
+    "name": "South Sudan",
+    "iso2": "SS",
+    "dial_code": "+211",
+    "flag": "🇸🇸",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "91 234 5678"
+  },
+  {
+    "name": "Spain",
+    "iso2": "ES",
+    "dial_code": "+34",
+    "flag": "🇪🇸",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "612 34 56 78"
+  },
+  {
+    "name": "Sri Lanka",
+    "iso2": "LK",
+    "dial_code": "+94",
+    "flag": "🇱🇰",
+    "min_length": 9,
+    "max_length": 10,
+    "placeholder": "071 234 5678"
+  },
+  {
+    "name": "Sudan",
+    "iso2": "SD",
+    "dial_code": "+249",
+    "flag": "🇸🇩",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "91 123 4567"
+  },
+  {
+    "name": "Suriname",
+    "iso2": "SR",
+    "dial_code": "+597",
+    "flag": "🇸🇷",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "721 2345"
+  },
+  {
+    "name": "Sweden",
+    "iso2": "SE",
+    "dial_code": "+46",
+    "flag": "🇸🇪",
+    "min_length": 9,
+    "max_length": 10,
+    "placeholder": "070 123 4567"
+  },
+  {
+    "name": "Switzerland",
+    "iso2": "CH",
+    "dial_code": "+41",
+    "flag": "🇨🇭",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "79 123 45 67"
+  },
+  {
+    "name": "Syria",
+    "iso2": "SY",
+    "dial_code": "+963",
+    "flag": "🇸🇾",
+    "min_length": 9,
+    "max_length": 10,
+    "placeholder": "944 123 456"
+  },
+  {
+    "name": "Taiwan",
+    "iso2": "TW",
+    "dial_code": "+886",
+    "flag": "🇹🇼",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "912 345 678"
+  },
+  {
+    "name": "Tajikistan",
+    "iso2": "TJ",
+    "dial_code": "+992",
+    "flag": "🇹🇯",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "918 123 456"
+  },
+  {
+    "name": "Tanzania",
+    "iso2": "TZ",
+    "dial_code": "+255",
+    "flag": "🇹🇿",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "0712 345 678"
+  },
+  {
+    "name": "Thailand",
+    "iso2": "TH",
+    "dial_code": "+66",
+    "flag": "🇹🇭",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "081 234 567"
+  },
+  {
+    "name": "Timor-Leste",
+    "iso2": "TL",
+    "dial_code": "+670",
+    "flag": "🇹🇱",
+    "min_length": 7,
+    "max_length": 8,
+    "placeholder": "772 3456"
+  },
+  {
+    "name": "Togo",
+    "iso2": "TG",
+    "dial_code": "+228",
+    "flag": "🇹🇬",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "90 12 34 56"
+  },
+  {
+    "name": "Tonga",
+    "iso2": "TO",
+    "dial_code": "+676",
+    "flag": "🇹🇴",
+    "min_length": 5,
+    "max_length": 7,
+    "placeholder": "88123"
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "iso2": "TT",
+    "dial_code": "+1868",
+    "flag": "🇹🇹",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "(868) 310-1234"
+  },
+  {
+    "name": "Tunisia",
+    "iso2": "TN",
+    "dial_code": "+216",
+    "flag": "🇹🇳",
+    "min_length": 8,
+    "max_length": 8,
+    "placeholder": "21 234 567"
+  },
+  {
+    "name": "Turkey",
+    "iso2": "TR",
+    "dial_code": "+90",
+    "flag": "🇹🇷",
+    "min_length": 10,
+    "max_length": 10,
+    "placeholder": "532 123 4567"
+  }
+]
+[
+  {
+    "name": "Uganda",
+    "iso2": "UG",
+    "dial_code": "+256",
+    "flag": "🇺🇬",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "712 345 678"
+  },
+  {
+    "name": "Ukraine",
+    "iso2": "UA",
+    "dial_code": "+380",
+    "flag": "🇺🇦",
+    "min_length": 9,
+    "max_length": 10,
+    "placeholder": "50 123 4567"
+  },
+  {
+    "name": "United Arab Emirates",
+    "iso2": "AE",
+    "dial_code": "+971",
+    "flag": "🇦🇪",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "50 123 4567"
+  },
+  {
+    "name": "United Kingdom",
+    "iso2": "GB",
+    "dial_code": "+44",
+    "flag": "🇬🇧",
+    "min_length": 10,
+    "max_length": 10,
+    "placeholder": "07123 456789"
+  },
+  {
+    "name": "United States",
+    "iso2": "US",
+    "dial_code": "+1",
+    "flag": "🇺🇸",
+    "min_length": 10,
+    "max_length": 10,
+    "placeholder": "(202) 555-0132"
+  },
+  {
+    "name": "Uruguay",
+    "iso2": "UY",
+    "dial_code": "+598",
+    "flag": "🇺🇾",
+    "min_length": 8,
+    "max_length": 9,
+    "placeholder": "94 123 456"
+  },
+  {
+    "name": "Uzbekistan",
+    "iso2": "UZ",
+    "dial_code": "+998",
+    "flag": "🇺🇿",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "90 123 4567"
+  },
+  {
+    "name": "Vanuatu",
+    "iso2": "VU",
+    "dial_code": "+678",
+    "flag": "🇻🇺",
+    "min_length": 7,
+    "max_length": 7,
+    "placeholder": "781 2345"
+  },
+  {
+    "name": "Vatican City",
+    "iso2": "VA",
+    "dial_code": "+379",
+    "flag": "🇻🇦",
+    "min_length": 6,
+    "max_length": 10,
+    "placeholder": "613 123"
+  },
+  {
+    "name": "Venezuela",
+    "iso2": "VE",
+    "dial_code": "+58",
+    "flag": "🇻🇪",
+    "min_length": 10,
+    "max_length": 10,
+    "placeholder": "412 123 4567"
+  },
+  {
+    "name": "Vietnam",
+    "iso2": "VN",
+    "dial_code": "+84",
+    "flag": "🇻🇳",
+    "min_length": 9,
+    "max_length": 10,
+    "placeholder": "0912 345 678"
+  },
+  {
+    "name": "Yemen",
+    "iso2": "YE",
+    "dial_code": "+967",
+    "flag": "🇾🇪",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "71 123 4567"
+  },
+  {
+    "name": "Zambia",
+    "iso2": "ZM",
+    "dial_code": "+260",
+    "flag": "🇿🇲",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "97 123 4567"
+  },
+  {
+    "name": "Zimbabwe",
+    "iso2": "ZW",
+    "dial_code": "+263",
+    "flag": "🇿🇼",
+    "min_length": 9,
+    "max_length": 9,
+    "placeholder": "71 234 567"
+  }
+]
