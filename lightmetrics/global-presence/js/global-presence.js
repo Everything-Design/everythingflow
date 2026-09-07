@@ -602,9 +602,8 @@
 
   function initScene() {
     var c = settings();
-    var bg = (c.colors && c.colors.background) || "#FFFFFF";
     refs.scene = new THREE.Scene();
-    refs.scene.background = new THREE.Color(bg);
+    refs.scene.background = null;
 
     var view = c.cameraZoom;
     refs.camera = new THREE.OrthographicCamera(-view / 2, view / 2, view / 2, -view / 2, 0.1, 20);
@@ -617,7 +616,7 @@
       alpha: true,
       powerPreference: "high-performance",
     });
-    refs.renderer.setClearColor(bg, 1);
+    refs.renderer.setClearColor(0x000000, 0);
     refs.renderer.setPixelRatio(Math.min(global.devicePixelRatio || 1, c.maxPixelRatio || 2));
     if (THREE.SRGBColorSpace) refs.renderer.outputColorSpace = THREE.SRGBColorSpace;
 

@@ -5,7 +5,7 @@
   --gp-tick: #2a2a2a;
   --gp-pad-y: clamp(20px, 6vmin, 96px);
   --gp-pad-x: clamp(16px, 4vw, 72px);
-  --gp-globe: min(100%, 720px, calc(100vw - 2 * var(--gp-pad-x) - 220px), calc(100svh - 2 * var(--gp-pad-y) - 8px));
+  --gp-globe: min(540px, 100%, calc(100vw - 2 * var(--gp-pad-x) - 220px), calc(100svh - 2 * var(--gp-pad-y) - 8px));
 }
 
 *,
@@ -35,7 +35,7 @@ body {
   min-height: 100svh;
   padding: var(--gp-pad-y) max(var(--gp-pad-x), env(safe-area-inset-right))
     var(--gp-pad-y) max(var(--gp-pad-x), env(safe-area-inset-left));
-  background: #ffffff;
+  background: transparent;
 }
 
 .global-presence::before,
@@ -77,13 +77,20 @@ body {
   color: var(--gp-muted);
 }
 
+.global-globe,
+.global-globe_canvas {
+  background: transparent;
+}
+
 .global-globe {
   position: relative;
   width: var(--gp-globe);
-  max-width: 100%;
+  height: var(--gp-globe);
+  max-width: 540px;
+  max-height: 540px;
   aspect-ratio: 1;
   margin: 0 auto;
-  flex: 0 1 auto;
+  flex: 0 0 auto;
 }
 
 .global-globe_canvas,
@@ -122,7 +129,7 @@ body {
 
 @media (max-width: 980px) {
   :root {
-    --gp-globe: min(100%, 560px, calc(100vw - 2 * var(--gp-pad-x) - 180px), calc(100svh - 2 * var(--gp-pad-y) - 8px));
+    --gp-globe: min(540px, 100%, calc(100vw - 2 * var(--gp-pad-x) - 180px), calc(100svh - 2 * var(--gp-pad-y) - 8px));
   }
 
   .global-presence_number {
@@ -134,7 +141,7 @@ body {
   :root {
     --gp-pad-y: clamp(20px, 5vmin, 48px);
     --gp-pad-x: 16px;
-    --gp-globe: min(88vw, 500px, calc(100svh - 2 * var(--gp-pad-y) - 96px));
+    --gp-globe: min(540px, 88vw, calc(100svh - 2 * var(--gp-pad-y) - 96px));
   }
 
   .global-presence_layout {
@@ -168,7 +175,7 @@ body {
 
 @media (orientation: landscape) and (max-height: 700px) {
   :root {
-    --gp-globe: min(100%, 520px, calc(100vw - 200px), calc(100svh - 2 * var(--gp-pad-y) - 8px));
+    --gp-globe: min(540px, 100%, calc(100vw - 200px), calc(100svh - 2 * var(--gp-pad-y) - 8px));
   }
 
   .global-presence_layout {

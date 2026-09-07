@@ -17,7 +17,6 @@
       inactive: "#E4E4E4",
       secondary: "#B0B0B0",
       active: "#A000A0",
-      background: "#FFFFFF",
     },
     transitionDuration: 0.72,
     activeThreshold: 0.72,
