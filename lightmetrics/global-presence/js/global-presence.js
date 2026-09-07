@@ -320,9 +320,22 @@
   }
 
   function companionRegions(regionId) {
+    var ids = [regionId];
+    var seen = {};
+    seen[regionId] = true;
+
+    function add(id) {
+      if (!id || seen[id] || !geo.regionIso[id]) return;
+      seen[id] = true;
+      ids.push(id);
+    }
+
+    var pairs = settings().companionRegions || {};
+    var extras = pairs[regionId] || [];
+    for (var p = 0; p < extras.length; p += 1) add(extras[p]);
+
     var regions = state.regionConfig;
     var winner = regions[regionId];
-    var ids = [regionId];
     if (!winner || !isFinite(winner.center.lon)) return ids;
 
     var maxLon = settings().companionLongitude;
@@ -333,12 +346,11 @@
     var keys = Object.keys(geo.regionDirs);
     for (var i = 0; i < keys.length; i += 1) {
       var id = keys[i];
-      if (id === regionId) continue;
       var region = regions[id];
       if (!region || !isFinite(region.center.lon)) continue;
       if (shortestLonDiff(winner.center.lon, region.center.lon) > maxLon) continue;
       if (scoreRegion(id) < minScore) continue;
-      ids.push(id);
+      add(id);
     }
     return ids;
   }

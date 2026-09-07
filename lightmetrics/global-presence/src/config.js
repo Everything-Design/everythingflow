@@ -23,6 +23,12 @@
     hysteresis: 0.055,
     companionLongitude: 40,
     companionThreshold: 0.38,
+    companionRegions: {
+      africa: ["europe"],
+      europe: ["africa"],
+      "north-america": ["south-america"],
+      "south-america": ["north-america"],
+    },
     cameraZoom: 2.26,
     tilt: -0.1,
     tickCount: 144,
