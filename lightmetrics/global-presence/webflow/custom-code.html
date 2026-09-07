@@ -1,0 +1,15 @@
+<!--
+  Paste in Page Settings → Custom Code → Before </body>
+  or Site Settings → Custom Code → Footer if the globe is site-wide.
+
+  Do not paste this inside a Webflow Embed.
+-->
+<script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/YOUR-USER/YOUR-REPO@main/dist/config.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/YOUR-USER/YOUR-REPO@main/dist/land-pixels.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/YOUR-USER/YOUR-REPO@main/dist/global-presence.min.js"></script>
+<script>
+  window.GlobalPresence.init().catch(function (error) {
+    console.error("[GlobalPresence]", error);
+  });
+</script>

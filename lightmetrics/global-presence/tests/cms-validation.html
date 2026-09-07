@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CMS validation tests</title>
+    <link rel="stylesheet" href="../css/global-presence.css" />
+  </head>
+  <body>
+    <section class="global-presence">
+      <div class="global-presence_layout">
+        <div class="global-presence_stat">
+          <div class="global-presence_number" data-region-count>?</div>
+          <div class="global-presence_label">CONTINENTS</div>
+        </div>
+        <div id="global-globe" class="global-globe">
+          <canvas class="global-globe_canvas"></canvas>
+          <svg class="global-globe_ring" viewBox="0 0 100 100" aria-hidden="true"></svg>
+          <div class="global-globe_status" hidden></div>
+        </div>
+        <div class="global-presence_stat">
+          <div class="global-presence_number" data-country-count>?</div>
+          <div class="global-presence_label">COUNTRIES</div>
+        </div>
+      </div>
+
+      <div class="globe-cms-data">
+        <div class="globe-region-data" data-globe-region="asia" data-region-name="Asia" data-center-lat="21" data-center-lon="79" data-sort="1" data-start-region="true"></div>
+        <div class="globe-region-data" data-globe-region="europe" data-region-name="Europe" data-center-lat="48" data-center-lon="8" data-sort="2" data-start-region="true"></div>
+        <div class="globe-region-data" data-globe-region="empty-land" data-region-name="Empty Land" data-center-lat="0" data-center-lon="0" data-sort="9" data-start-region="false"></div>
+        <div class="globe-country-data" data-globe-country="IND" data-country-name="India" data-region="asia" data-sort="1"></div>
+        <div class="globe-country-data" data-globe-country="INDIA" data-country-name="Bad ISO" data-region="asia" data-sort="2"></div>
+        <div class="globe-country-data" data-globe-country="ZZZ" data-country-name="Missing geography" data-region="unknown-region" data-sort="1"></div>
+      </div>
+    </section>
+
+    <script src="../vendor/three.min.js"></script>
+    <script src="../js/config.js"></script>
+    <script src="../data/land-pixels.js"></script>
+    <script src="../js/global-presence.js"></script>
+    <script>
+      window.GlobalPresence.init().catch(function (error) {
+        console.error(error);
+      });
+    </script>
+  </body>
+</html>

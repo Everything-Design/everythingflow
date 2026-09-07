@@ -1,0 +1,10 @@
+{
+  "name": "webflow-pixel-globe",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preprocess": "python3 scripts/preprocess-geography.py",
+    "dist": "sh scripts/build-dist.sh",
+    "start": "python3 -m http.server 4173"
+  }
+}
