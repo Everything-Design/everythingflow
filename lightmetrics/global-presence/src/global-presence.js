@@ -18,6 +18,7 @@
     raf: 0,
     lastTime: 0,
     activeRegion: null,
+    activeRegions: [],
     transitioning: false,
     regionConfig: {},
     startRegion: null,
@@ -313,6 +314,35 @@
     return dir.dot(scratch.cameraDir);
   }
 
+  function shortestLonDiff(a, b) {
+    var delta = Math.abs(a - b) % 360;
+    return delta > 180 ? 360 - delta : delta;
+  }
+
+  function companionRegions(regionId) {
+    var regions = state.regionConfig;
+    var winner = regions[regionId];
+    var ids = [regionId];
+    if (!winner || !isFinite(winner.center.lon)) return ids;
+
+    var maxLon = settings().companionLongitude;
+    var minScore = settings().companionThreshold;
+    if (maxLon == null) maxLon = 40;
+    if (minScore == null) minScore = 0.38;
+
+    var keys = Object.keys(geo.regionDirs);
+    for (var i = 0; i < keys.length; i += 1) {
+      var id = keys[i];
+      if (id === regionId) continue;
+      var region = regions[id];
+      if (!region || !isFinite(region.center.lon)) continue;
+      if (shortestLonDiff(winner.center.lon, region.center.lon) > maxLon) continue;
+      if (scoreRegion(id) < minScore) continue;
+      ids.push(id);
+    }
+    return ids;
+  }
+
   function detectCenteredRegion() {
     var threshold = settings().activeThreshold;
     var hysteresis = settings().hysteresis;
@@ -339,22 +369,34 @@
 
   function setActiveRegion(regionId, instant) {
     if (!geo.regionIso[regionId]) return;
-    var activeIsos = geo.regionIso[regionId];
+    var group = companionRegions(regionId);
+    var activeIsos = new Set();
+    for (var g = 0; g < group.length; g += 1) {
+      var set = geo.regionIso[group[g]];
+      if (!set) continue;
+      set.forEach(function (iso) {
+        activeIsos.add(iso);
+      });
+    }
+
     var targets = geo.targets;
     for (var i = 0; i < geo.pixels.length; i += 1) {
       targets[i] = activeIsos.has(geo.pixels[i].iso3) ? 1 : 0;
       if (instant) geo.highlights[i] = targets[i];
     }
     state.activeRegion = regionId;
+    state.activeRegions = group;
     state.transitioning = !instant;
     writeInstanceColors();
 
     if (refs.container) {
       refs.container.dataset.activeRegion = regionId;
+      refs.container.dataset.activeRegions = group.join(",");
       refs.container.dispatchEvent(
         new CustomEvent("globalpresence:region", {
           detail: {
             id: regionId,
+            ids: group,
             label: state.regionConfig[regionId] ? state.regionConfig[regionId].name : regionId,
           },
         })

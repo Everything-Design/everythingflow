@@ -21,6 +21,8 @@
     transitionDuration: 0.72,
     activeThreshold: 0.72,
     hysteresis: 0.055,
+    companionLongitude: 40,
+    companionThreshold: 0.38,
     cameraZoom: 2.26,
     tilt: -0.1,
     tickCount: 144,
