@@ -670,6 +670,15 @@
     refs.globe = new THREE.Group();
     refs.pivot.add(refs.globe);
     refs.scene.add(refs.pivot);
+    refs.globe.add(
+      new THREE.Mesh(
+        new THREE.SphereGeometry((c.globeRadius || 1) * 0.992, 64, 48),
+        new THREE.MeshBasicMaterial({
+          color: 0xffffff,
+          toneMapped: false,
+        })
+      )
+    );
 
     scratch.dir = new THREE.Vector3();
     scratch.cameraDir = new THREE.Vector3(0, 0, 1);
