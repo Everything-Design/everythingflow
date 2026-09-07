@@ -617,6 +617,9 @@
       powerPreference: "high-performance",
     });
     refs.renderer.setClearColor(0x000000, 0);
+    refs.renderer.setClearAlpha(0);
+    refs.canvas.style.background = "transparent";
+    refs.canvas.style.backgroundColor = "transparent";
     refs.renderer.setPixelRatio(Math.min(global.devicePixelRatio || 1, c.maxPixelRatio || 2));
     if (THREE.SRGBColorSpace) refs.renderer.outputColorSpace = THREE.SRGBColorSpace;
 
@@ -673,6 +676,8 @@
 
       refs.canvas = refs.container.querySelector(".global-globe_canvas") || document.createElement("canvas");
       refs.canvas.classList.add("global-globe_canvas");
+      refs.canvas.style.background = "transparent";
+      refs.canvas.style.backgroundColor = "transparent";
       if (!refs.canvas.parentNode) refs.container.appendChild(refs.canvas);
 
       refs.svg = refs.container.querySelector(".global-globe_ring") || document.createElementNS(SVG_NS, "svg");

@@ -77,9 +77,19 @@ body {
   color: var(--gp-muted);
 }
 
+#canvas.global-presence_layout,
+#global-globe,
+#global-globe.global-globe,
+#global-globe .global-globe_layer,
+#global-globe .w-embed,
+#global-globe canvas,
+#global-globe svg,
 .global-globe,
-.global-globe_canvas {
-  background: transparent;
+.global-globe_layer,
+.global-globe_canvas,
+.global-globe_ring {
+  background: transparent !important;
+  background-color: transparent !important;
 }
 
 .global-globe {
