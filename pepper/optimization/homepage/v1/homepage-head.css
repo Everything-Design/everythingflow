@@ -1,0 +1,127 @@
+/* Homepage Head rules retain their position before shared body styles. */
+
+/* START HOME-CSS-013 | original SHA-256 4ee5785aaa67aae943addae0c50fb9dbff85cbf0ca1b2bf7b9d78d09ab8893d5 */
+
+
+@media (min-width: 992px) {
+  .u-dummy-home-block {
+    visibility: hidden;
+  }
+}
+.u-tab-swiperslide {
+  flex-shrink: 0;
+}
+
+
+/* END HOME-CSS-013 */
+
+/* START HOME-CSS-014 | original SHA-256 9562e6bd584b5a79a912e825ad1653f14d991f131248c26bf4a592f130b8d325 */
+
+
+  .u-swiper-bullets .swiper-pagination-bullet{
+    width: 0.38rem;
+    height: 0.38rem;
+    border-top-left-radius: var(--radius--round);
+    border-top-right-radius: var(--radius--round);
+    border-bottom-left-radius: var(--radius--round);
+    border-bottom-right-radius: var(--radius--round);
+    background-color: rgba(255, 247, 239, 0.7);
+    transition-property: all;
+    transition-duration: 400ms;
+    transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  .u-swiper-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active{
+    width: 1rem;
+    height: 0.38rem;
+    border-top-left-radius: var(--radius--round);
+    border-top-right-radius: var(--radius--round);
+    border-bottom-left-radius: var(--radius--round);
+    border-bottom-right-radius: var(--radius--round);
+    background-color: rgba(255, 247, 239, 0.7);
+    transition-property: all;
+    transition-duration: 400ms;
+    transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+
+/* END HOME-CSS-014 */
+
+/* START HOME-CSS-017 | original SHA-256 5a09e7067d2ff7a9d58940d3f2d494b4121fe470abb8f65ebfdaf057d1d6d8dc */
+
+
+  /* Real floating tags in the reasons section only */
+  #stagger-tag .u-tag-one,
+  #stagger-tag .u-tag-two,
+  #stagger-tag .u-tag-three,
+  #stagger-tag .u-tag-four,
+  #stagger-tag .u-tag-five,
+  #stagger-tag .u-tag-six,
+  #stagger-tag .u-tag-seven {
+    opacity: 0;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    #stagger-tag .u-tag-one,
+    #stagger-tag .u-tag-two,
+    #stagger-tag .u-tag-three,
+    #stagger-tag .u-tag-four,
+    #stagger-tag .u-tag-five,
+    #stagger-tag .u-tag-six,
+    #stagger-tag .u-tag-seven {
+      opacity: 1 !important;
+    }
+  }
+
+
+/* END HOME-CSS-017 */
+
+/* START HOME-CSS-019 | original SHA-256 1c6da6299752168cca1263be93a24aaadbc0a4d3d204503f0eced4bede585ab2 */
+
+
+  #resource-home .u-reource-wrap,
+  #resource-home .u-resource-collection {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  #resource-home .u-resource-list.swiper-wrapper {
+    display: flex;
+    box-sizing: content-box;
+  }
+
+  #resource-home .u-resource-item.swiper-slide {
+    flex-shrink: 0;
+    height: auto;
+  }
+
+  #resource-home .u-resource-prev,
+  #resource-home .u-resource-next {
+    opacity: 1;
+    transition: opacity 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  #resource-home .u-resource-prev.swiper-button-disabled,
+  #resource-home .u-resource-next.swiper-button-disabled {
+    opacity: 0.35;
+    pointer-events:none;
+  }
+
+
+/* END HOME-CSS-019 */
+
+/* START HOME-CSS-020 | original SHA-256 db064a0f195d6a4afa8e482961266215a72cdf7c5bb47f196d9c8eab9f72c8cc */
+
+
+      /* The only additional content visibility rule. */
+    @media (min-width: 992px) {
+      #tango .u-tango-contenttab {
+        display: none !important;
+      }
+      .u-recomend-swiperslide{
+        display:none !important;
+      }
+    }
+
+
+
+/* END HOME-CSS-020 */
